@@ -1,32 +1,47 @@
 # RollMatch
 
-MVP de um web app para encontrar parceiros de treino de Jiu-Jitsu por região, faixa, peso e modalidade.
+RollMatch é uma plataforma em construção para conectar praticantes de Jiu-Jitsu com parceiros de treino compatíveis por região, faixa, peso, modalidade e disponibilidade.
 
-## Como rodar localmente
+## Problema
 
-```bash
-npm install
-npm run dev
-```
+Muitos praticantes querem treinar, praticar uma técnica específica ou corrigir detalhes do jogo, mas dependem de grupos de WhatsApp, indicação informal ou sorte para encontrar alguém compatível.
 
-Depois abra:
+## Solução
 
-```text
-http://localhost:3000
-```
+O RollMatch permite filtrar atletas por critérios reais de treino e encontrar parceiros mais alinhados com o objetivo do usuário.
 
-## Estrutura principal
+## Funcionalidades
 
-```text
-app/page.tsx       # Interface principal
-app/layout.tsx     # Layout base do Next.js
-app/globals.css    # CSS/Tailwind
-data/athletes.ts   # Base fake de atletas
-```
+- Cadastro de atleta
+- Filtros por região
+- Filtros por faixa
+- Filtros por peso
+- Filtros por modalidade: Gi, No-Gi ou ambos
+- Lista de parceiros compatíveis
+- Convite pronto para copiar e enviar
+
+## Stack
+
+- Next.js
+- React
+- Vercel
+- Neon
+- PostgreSQL
+- JavaScript / CSS
+
+## Status do projeto
+
+Primeira versão em desenvolvimento.
 
 ## Próximos passos
 
-- Criar formulário de cadastro de atleta
-- Salvar dados no Neon/PostgreSQL
-- Criar score de compatibilidade
-- Fazer deploy na Vercel
+- Melhorar autenticação
+- Criar perfil individual do atleta
+- Adicionar sistema de disponibilidade
+- Adicionar ranking de compatibilidade
+- Criar tela mobile-first
+- Validar com praticantes e academias
+
+## Objetivo
+
+Construir uma solução simples para reduzir o atrito na hora de encontrar bons parceiros de treino e fortalecer a comunidade do Jiu-Jitsu.
